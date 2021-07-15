@@ -23,4 +23,4 @@ combined = combined[combined['text'].apply(lambda text: rt_regex.search(text) is
 combined = combined[combined['text'].apply(lambda text: url_regex.search(text) is None)]
 
 print('Size: ', combined.shape[0]) # Size: 358067
-combined.to_csv(os.path.join(processed_path, 'combined.csv.bz2'), index=False, compression='bz2')
+combined.to_csv(os.path.join(processed_path, 'combined.csv.gz'), index=False, compression='gzip')
