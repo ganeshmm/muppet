@@ -1,2 +1,0 @@
-# Data
-The datasets used in the project were released in the paper *Emoji Prediction: Extensions and Benchmarking* at WISDOM '20, held in conjunction with KDD '20. Specifically, the datasets corresponding to MC_100 were used for training, development, and testing.
